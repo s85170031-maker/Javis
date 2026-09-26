@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glowing ring -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26"
+        android:strokeColor="#4000F0FF"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000" />
+
+    <!-- Main Arc Reactor outer rim -->
+    <path
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+
+    <!-- 10 Reactor Power Cells around the perimeter -->
+    <!-- Top & Bottom -->
+    <path android:pathData="M51,26 h6 v5 h-6 z" android:fillColor="#00E5FF" />
+    <path android:pathData="M51,77 h6 v5 h-6 z" android:fillColor="#00E5FF" />
+    <!-- Left & Right -->
+    <path android:pathData="M26,51 h5 v6 h-5 z" android:fillColor="#00E5FF" />
+    <path android:pathData="M77,51 h5 v6 h-5 z" android:fillColor="#00E5FF" />
+    <!-- Diagonals -->
+    <path android:pathData="M34,34 l4.2,2.5 l-2.5,4.2 l-4.2,-2.5 z" android:fillColor="#00E5FF" />
+    <path android:pathData="M70,36.5 l4.2,-2.5 l2.5,4.2 l-4.2,2.5 z" android:fillColor="#00E5FF" />
+    <path android:pathData="M34,74 l2.5,-4.2 l4.2,2.5 l-2.5,4.2 z" android:fillColor="#00E5FF" />
+    <path android:pathData="M70,71.5 l-2.5,-4.2 l4.2,-2.5 l2.5,4.2 z" android:fillColor="#00E5FF" />
+
+    <!-- Intermediate Concentric Energy Ring -->
+    <path
+        android:pathData="M54,36 A18,18 0 1,0 54,72 A18,18 0 1,0 54,36"
+        android:strokeColor="#8000F0FF"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000" />
+
+    <!-- Inner Core Ring -->
+    <path
+        android:pathData="M54,43 A11,11 0 1,0 54,65 A11,11 0 1,0 54,43"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.2"
+        android:fillColor="#00000000" />
+
+    <!-- Central Glowing Core -->
+    <path
+        android:pathData="M54,47 A7,7 0 1,0 54,61 A7,7 0 1,0 54,47"
+        android:fillColor="#E0F7FA" />
+
+    <!-- Inner high-intensity center dot -->
+    <path
+        android:pathData="M54,51 A3,3 0 1,0 54,57 A3,3 0 1,0 54,51"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Micro telemetry ticks -->
+    <path
+        android:pathData="M54,23 L54,20 M54,85 L54,88 M23,54 L20,54 M85,54 L88,54"
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+</vector>

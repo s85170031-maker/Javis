@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS AI",
+  "description": "Sophisticated JARVIS voice AI assistant with speech recognition, voice responses, arc reactor HUD, and Stark Tech telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
